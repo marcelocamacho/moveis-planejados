@@ -1,0 +1,22 @@
+#Site do lima-moveis
+npm init -y
+npm install react react-dom gatsby gatsby-cli
+
+mkdir -p src/pages
+index.js
+
+# Após criar o primeiro componente o resultado poderá ser visualizado com o comando:
+npx gatsby develp
+
+# Nesse projeto será utilizado o framework css tailwind
+npm install tailwindcss gatsby-plugin-postcss gatsby-plugin-purgecss
+
+# Criar o arquivo gatsby-config.js para incluir o plugin no gatsby
+
+#Criar em src/pages, o styles.css
+
+npm install --save-dev @iconify/react @iconify/icons-mdi
+
+npm install react-helmet gatsby-plugin-react-helmet
+
+
