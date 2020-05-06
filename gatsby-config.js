@@ -1,4 +1,7 @@
 module.exports = {
+	siteMetadata:{
+		title: 'Lima Móveis planejados'
+	},
 	plugins: [
 		'gatsby-plugin-postcss',
 		{
@@ -7,6 +10,7 @@ module.exports = {
 				printRejected:true,
 				tailwind:true
 			}
-		}
+		},
+		'gatsby-plugin-react-helmet',
 ]
 }
